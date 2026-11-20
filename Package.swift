@@ -18,9 +18,5 @@ let package = Package(
         .target(
             name: "Indentation"
         ),
-        .testTarget(
-            name: "IndentationTests",
-            dependencies: ["Indentation"]
-        ),
     ]
 )
